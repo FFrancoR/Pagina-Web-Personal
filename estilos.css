@@ -1,3 +1,30 @@
-#tituloPrincipal{
-   text-align: center;color: cadetblue;
+#tituloPrincipal {
+        padding-left: 0cm;
+        padding-right: 0cm;
+        padding-top: 0cm;
+        padding-bottom: 0cm;
+        border-color: rgb(189, 255, 127);
+        text-align: center;
+        color: rgb(230, 75, 28);
+        font-family: 'Times New Roman', Times, serif;
+        border-style: double;
+        border: 2px solid rgb(66, 174, 189);
+        border-radius: 5px;
+        padding: 5px;
+        height: 40px;
+        width: 50%;
+        background-color: rgb(0, 255, 170);
+        font-weight: bold;
+
+
 }
+
+body {
+        background-image: url(https://img.freepik.com/vector-gratis/fondo-degradado-tonos-verdes_23-2148363157.jpg?w=2000);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+        background-size: cover;
+}
+
+h3 {}
