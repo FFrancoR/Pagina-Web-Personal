@@ -1,14 +1,15 @@
 #header {
-        box-sizing: border-box;
-        width:auto;
+        
+        width: 100%;
         height: 48px;
-        left: 0px;
-        top: 0px;
-        margin-left: 0mm;
+        margin-left: 0%;
+        margin-right: 0%;
         background: #ee9117;
         border: 2px solid #000000;
         text-align: center;
         font-family: Georgia, 'Times New Roman', Times, serif;
+        padding-left: 0%;
+        padding-right: 0%;
 
 }
 
@@ -23,12 +24,15 @@
         
 }
 
-ul {    position: sticky;
+ul {    
+        height: 1cm;
+        position: sticky;
         list-style-type: none;
         margin: 0;
         padding: 0;
         overflow: hidden;
         background-color: #ee9117;
+        text-align: center center;
 }
 
 li {
