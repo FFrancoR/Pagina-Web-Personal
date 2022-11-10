@@ -1,3 +1,7 @@
+body {
+        margin: 0%;
+        padding: 0%;
+}
 #header {
         
         width: 100%;
@@ -10,6 +14,9 @@
         font-family: Georgia, 'Times New Roman', Times, serif;
         padding-left: 0%;
         padding-right: 0%;
+        
+
+
 
 }
 
@@ -31,13 +38,14 @@ ul {
         margin: 0;
         padding: 0;
         overflow: hidden;
-        background-color: #ee9117;
-        text-align: center center;
+        background-color: #b69d7d;
+        
+        
 }
 
 li {
         display: inline;
-        background-color: #ee9117;
+        background-color: #b69d7d;
         width: auto;
 }
 
@@ -45,9 +53,11 @@ li a{
         border-color: #000000;
         display: inline;
         color: black;
-        text-align: center;
+        text-align: center bottom;
         padding: 50px 122px;
-        text-decoration: none;     
+        text-decoration: none;
+        padding-top: 3mm;
+        padding-bottom: 3mm;     
 }
 
 li a:hover {
@@ -62,5 +72,6 @@ body {
         background-attachment: fixed;
         background-size: cover;
 }
+
 
 
