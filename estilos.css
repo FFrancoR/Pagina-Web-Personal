@@ -1,30 +1,61 @@
-#tituloPrincipal {
-        padding-left: 0cm;
-        padding-right: 0cm;
-        padding-top: 0cm;
-        padding-bottom: 0cm;
-        border-color: rgb(189, 255, 127);
+#header {
+        box-sizing: border-box;
+        width:auto;
+        height: 48px;
+        left: 0px;
+        top: 0px;
+        margin-left: 0mm;
+        background: #ee9117;
+        border: 2px solid #000000;
         text-align: center;
-        color: rgb(230, 75, 28);
-        font-family: 'Times New Roman', Times, serif;
-        border-style: double;
-        border: 2px solid rgb(66, 174, 189);
-        border-radius: 5px;
-        padding: 5px;
-        height: 40px;
-        width: 50%;
-        background-color: rgb(0, 255, 170);
-        font-weight: bold;
-
+        font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
 
+#slogan{
+        width: auto;
+        box-sizing: border-box;
+        text-align: center;
+        background-color: #ee9117;
+        padding-top: 5mm;
+        padding-bottom: 5mm;
+        text-decoration: underline;
+        
+}
+
+ul {    position: sticky;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #ee9117;
+}
+
+li {
+        display: inline;
+        background-color: #ee9117;
+}
+
+li a{
+        border-color: #000000;
+        display: inline;
+        color: black;
+        text-align: center;
+        padding: 50px 110px;
+        text-decoration: none;     
+}
+
+li a:hover {
+        background-color: rgb(100, 94, 94);
+}
+
+
 body {
-        background-image: url(https://img.freepik.com/vector-gratis/fondo-degradado-tonos-verdes_23-2148363157.jpg?w=2000);
+        background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw0NBw0NDQ0NDQ0HCA0HBw0NDQ8IDQcNFREWFhURExMYHSggGBoxGxUTITEhJSkrLi4uFx8zODM4NygtLisBCgoKDQ0NDg0NDi0ZFRk3LS0rLS0rKy0rKysrNy0rKystNysrKystKysrKysrKystKysrKysrKysrKysrKysrK//AABEIAKgBLAMBIgACEQEDEQH/xAAZAAEBAQEBAQAAAAAAAAAAAAABAgAFBgP/xAAWEAEBAQAAAAAAAAAAAAAAAAAAEQH/xAAZAQEBAQEBAQAAAAAAAAAAAAABAAIFBAb/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAwDAQACEQMRAD8A7xzU5pfGPtYul86qmiKpqaWqIo1FOaaIvNNQaWYtk0miKzSk00KKKaRFU1JIUaimkKKSQpklBTBiiQxBIapMzMgzMyTEMkxDJOPTU014HQijiDTRF05qKTRF0oprVZi6UU0iKNTTSIrNKKaRF0opNEUUkhTUEiGlJIUwJBpSSCRWQJSSlMGIUwaoFmZJmZknDNRS5zpReaag0iKzTUmkRdZNNNEVTUs1WYumozTmmiLpRTTRFVVRSRF1k05poijU0mhVKKaRFGpJEUUtSyopJSqwYhVKWIUwpQYhilMK1QcE1NZzK6kW1Sc00KNS1aEWUGkReaagmiLZOaTWYrNVmoJoi2qc000RRSaaIqmoJEXSimmiKpqaTQqlFVTWYo1BpEUU00hTCsUphWpCqUsQphSg8/Sg1y3VXWTTSIqlFNNEWUZpxqhRzU0miKNTTSIqlLUsxZqaxoXTUHNNEWaik0RbVNJoVmmpYiLKM1VNZis0oLVCjU5pIiqagkRRqc0oKapJCmoYp5+mpLluqpqk0hRQaRFU1JIiqak00KpTSaIqmopNZizmopwiLpRTmmiKpqaTRF5rIqs00RVNTS0Io1FJoi6ag0sxRqaaaIqlBpoUUk0RVKaxEUamkh58pZy3VU1BqBpS1KXTmopIWyacIijUsRF0oNNZXWTSaIqlNY0RdOaimkRdKKaaIunNQTRF0oprVEXWSTWYo1NY0LzTUGkRbVNNNEUU000KZNJojgMwct1FFNJRKSQTiSgqsk0hVNSxC2TSRFYammkRVNSxoWyc0kRVNS1NEXmmpppEUUZqq1RFU1BNEWajNOaayulBpoUamkiKpTTSIqmppNDhMzOa6bMzJMQyBKSUSkkE5qSQpk01BVKWpEWanNYhZqKc00KpSaaFGprERdKDWqIvNNRmkiKNTmk1leaag00RbVNNNEUUmkKpqCRHGZmc90WZmSZmZJmZkGNDFEpNSVWSSDTRWIUaimkLpQahFU5qaTQo1FJoXSimtURRzU0kRVKDmmiLpTWprMWc1NJoVmmoNNEWajNJojkszPC97MzJMzMkzMyTMzJMzMgxZimNZiCzMgaaGKJzWYg0sxZNIYg01mIJZijTWYsk1mIOaQxBprMQ/9k=);
         background-repeat: no-repeat;
         background-position: center center;
         background-attachment: fixed;
         background-size: cover;
 }
 
-h3 {}
+
