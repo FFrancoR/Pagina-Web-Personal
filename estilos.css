@@ -34,6 +34,7 @@ ul {    position: sticky;
 li {
         display: inline;
         background-color: #ee9117;
+        width: auto;
 }
 
 li a{
@@ -41,12 +42,12 @@ li a{
         display: inline;
         color: black;
         text-align: center;
-        padding: 50px 110px;
+        padding: 50px 122px;
         text-decoration: none;     
 }
 
 li a:hover {
-        background-color: rgb(100, 94, 94);
+        background-color: rgb(128, 124, 124);
 }
 
 
