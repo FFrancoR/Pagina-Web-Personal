@@ -16,8 +16,7 @@ ul {
         overflow: hidden;
         background-color: #000000;
         display: inline-block;
-        position: -webkit-sticky;
-        position: sticky;
+        width: 1280px;
 
 
 
@@ -30,9 +29,7 @@ li {
         background-color: #000000;
         width: auto;
         text-align: center;
-        position: -webkit-sticky;
-        position: sticky;
-        
+
 
 
 }
@@ -54,8 +51,6 @@ li a {
         border: solid 3px;
         border-color: rgb(255, 0, 0);
         font-family: 'Courier New', Courier, monospace;
-        position: -webkit-sticky;
-        position: sticky;
 }
 
 li a:hover {
@@ -90,10 +85,11 @@ body {
 
 nav {
         text-align: center;
-        position: -webkit-sticky;
         position: sticky;
+        top: 0;
+        background-color: transparent;
 
-        
+
 }
 
 #primera_peli {
@@ -112,4 +108,26 @@ section div {
         height: 250px;
         margin-top: 50px;
 
+}
+
+footer {
+        background-color: rgb(83, 102, 83);
+        height: 100px;
+        margin-top: 20px;
+
+}
+
+#titulo_y_sinopsis {
+
+        box-sizing: border-box;
+        background-color: rgb(85, 122, 88);
+        width: 50%;
+        font-family: 'Courier New', Courier, monospace;
+        padding-left:0%;
+        margin-left: 0%;
+}
+
+#poster_peli {
+        
+        display: flexbox;
 }
