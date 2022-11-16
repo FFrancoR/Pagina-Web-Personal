@@ -87,19 +87,15 @@ nav {
         text-align: center;
         position: sticky;
         top: 0;
-        background-color: transparent;
+        
 
 
 }
 
-#primerpeli {
-            
-
-}
-
-#primerpeli > div {
+#posterpeli{
         width: 50%;
-      }
+}
+
 
 section div {
         background-color: beige;
@@ -127,9 +123,3 @@ footer {
         margin-left: 0%;
 }
 
-img {
-        max-height: 100px;
-        min-width: 100px;
-        margin-left: 0%;
-        margin-right: 0%;
-}
