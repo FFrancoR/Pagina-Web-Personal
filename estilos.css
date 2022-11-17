@@ -17,6 +17,7 @@ ul {
         background-color: #000000;
         display: inline-block;
         width: 1280px;
+        width: 100%;
 
 
 
@@ -87,49 +88,79 @@ nav {
         text-align: center;
         position: sticky;
         top: 0;
-        background-color: transparent;
 
 
-}
-
-#primerpeli {
-            
 
 }
 
-#primerpeli > div {
+.contenedorpeli {
+        display: flex;
+}
+
+.posterpeli {
+
         width: 50%;
-      }
+        display: flex;
+        justify-content: center;
 
-section div {
+}
+
+
+
+
+
+img {
+        height: 100%;
+        width: auto;
+
+
+
+}
+
+
+section>div {
         background-color: beige;
-        margin-left: 100px;
-        margin-right: 100px;
+        margin-left: 0%;
+        margin-right: 0%;
         height: 250px;
         margin-top: 50px;
 
 }
 
+.titulo_y_sinopsis {
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        background-color: rgb(104, 104, 104);
+        width: 50%;
+        font-family: 'Courier New', Courier, monospace;
+        padding-left: 0%;
+        margin-left: 0%;
+        height: 100%;
+}
+
+div p {
+        margin-left: 1cm;
+        margin-right: 1cm;
+
+}
+
+.scroll {
+
+        margin-left: 1cm;
+        margin-right: 1cm;
+        overflow-y: scroll;
+
+}
+
+div h1 {
+        margin-left: 1cm;
+        margin-right: 1cm;
+}
+
+
 footer {
         background-color: rgb(83, 102, 83);
         height: 100px;
         margin-top: 20px;
-
-}
-
-#titulo_y_sinopsis {
-        display: flexbox;
-        box-sizing: border-box;
-        background-color: rgb(85, 122, 88);
-        width: 50%;
-        font-family: 'Courier New', Courier, monospace;
-        padding-left:0%;
-        margin-left: 0%;
-}
-
-img {
-        max-height: 100px;
-        min-width: 100px;
-        margin-left: 0%;
-        margin-right: 0%;
 }
