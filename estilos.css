@@ -35,6 +35,10 @@ li {
 
 }
 
+a {
+        cursor: pointer;
+}
+
 li a {
         width: 100%;
         border-color: #000000;
@@ -95,6 +99,7 @@ nav {
 
 .contenedorpeli {
         display: flex;
+        background-color: transparent;
 }
 
 .posterpeli {
@@ -112,6 +117,9 @@ nav {
 img {
         height: 100%;
         width: auto;
+        border: solid 3px;
+        border-color: white;
+        
 
 
 
@@ -131,7 +139,7 @@ section>div {
         display: flex;
         flex-direction: column;
         box-sizing: border-box;
-        background-color: rgb(104, 104, 104);
+        background-color: white;
         width: 50%;
         font-family: 'Courier New', Courier, monospace;
         padding-left: 0%;
@@ -162,5 +170,68 @@ div h1 {
 footer {
         background-color: rgb(83, 102, 83);
         height: 100px;
-        margin-top: 20px;
+
 }
+
+#botonruleta {
+        display: flex;
+        background-color: red;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 0%;
+        width: fit-content;
+        text-align: center;
+        justify-content: center;
+
+
+
+}
+
+#textobotonruleta {
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+
+}
+
+a:link,
+a:visited,
+a:active {
+        text-decoration: none;
+}
+
+#botonruleta a:hover {
+        background-color: black;
+        border: 1px solid;
+        border-color: red;
+
+}
+
+.pelirandom{
+        background-color: black;
+}
+
+#headerrandom{
+        background-color: gray;
+        font-family:'Courier New', Courier, monospace   ;
+        text-align: center;
+        padding: 15px;
+        margin: 15px;
+}
+
+#randomizer{
+        
+        background-color: red;
+        color: white;
+        border: 1px solid;
+        border-color: red;
+        cursor: pointer;
+        
+        
+        
+        
+}
+
+
+
+
