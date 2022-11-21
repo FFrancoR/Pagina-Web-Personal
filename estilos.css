@@ -183,8 +183,18 @@ footer {
         width: fit-content;
         text-align: center;
         justify-content: center;
+        border: 1px solid;
+        border-color: red;
 
 
+
+}
+
+#botonruleta a:hover {
+        background-color: black;
+        border: 1px solid;
+        border-color: red;
+        
 
 }
 
@@ -200,12 +210,7 @@ a:active {
         text-decoration: none;
 }
 
-#botonruleta a:hover {
-        background-color: black;
-        border: 1px solid;
-        border-color: red;
 
-}
 
 .pelirandom{
         background-color: black;
