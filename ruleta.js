@@ -14,6 +14,6 @@ function llamadaApi(){
 }
 
 function agregarALista(pelicula) {
-    const lista = document.getElementById("listaPeliculas")
-    lista.innerHTML = "<div><p>"+pelicula.title+"</p></div>"
+    const lista = document.getElementById("cuadro_del_api")
+    lista.innerHTML = "<div class='cuadroapi'><p>"+"Nombre de la pelicula: "+pelicula.title+"<br></p><p>"+"Sinopsis: "+pelicula.overview+"</p><br><p>"+"Puntuacion segun IMDB: "+pelicula.imdb_rating+"</p><br></div>"
 }
