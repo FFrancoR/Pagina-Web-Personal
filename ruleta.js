@@ -15,5 +15,5 @@ function llamadaApi(){
 
 function agregarALista(pelicula) {
     const lista = document.getElementById("listaPeliculas")
-    lista.innerHTML = "<div><p>"+pelicula.name+"</p></div>"
+    lista.innerHTML = "<div><p>"+pelicula.title+"</p></div>"
 }

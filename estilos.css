@@ -233,10 +233,10 @@ a:active {
 #randomizer button {
 
         display: flex;
-        width: 30%;
+        width: 33%;
         background-color: red;
         color: white;
-        margin: 10 px;
+        
         padding: 10px;
         text-align: center;
         justify-content: center;
