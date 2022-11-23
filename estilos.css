@@ -247,3 +247,7 @@ a:active {
         color: white;
 
 }
+
+button:hover{
+        cursor:pointer;
+}
